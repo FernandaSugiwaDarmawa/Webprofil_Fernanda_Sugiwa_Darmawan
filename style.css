@@ -1,0 +1,79 @@
+/* Reset beberapa default styling pada elemen HTML */
+body, h1, h2, h3, p, ul, ol, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Atur latar belakang dan jenis huruf pada body */
+body {
+    background-color: #e2da38;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Gaya header */
+header {
+    background-color: #403a3f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+/* Gaya navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Gaya bagian-bagian konten */
+section {
+    background-color: #eae7c0;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+/* Gaya gambar profil */
+#foto-profil img {
+    max-width: 20%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya daftar pendidikan dan pengalaman */
+ul, ol {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Gaya tautan */
+a {
+    color: #007BFF;
+}
